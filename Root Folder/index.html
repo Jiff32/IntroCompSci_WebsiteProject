@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Website Project</title>
+    <title>Paper Airplane Tutorial</title>
     <style>
 table {
 font-family: arial, sans-serif;
@@ -20,40 +20,54 @@ tr:nth-child(odd) {
 background-color: #7ec0ee;
 }
     </style>
+    <link href="./style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
+    <div class="navbar">
+      <a href="./index.html">Home</a>
+      <div class="dropdown">
+        <button class="navbtn">Airplanes</button>
+        <div class="dropdown_content">
+          <a href="./the_classic.html">The Classic</a>
+          <a href="./star_wing.html">Star Wing</a>
+          <a href="./canard_plane.html">Canard Plane</a>
+          <a href="./fast_hawk.html">Fast Hawk</a>
+        </div>
+      </div>
+    </div>
     <div class="introduction_text">
       <h1>How to Make Paper Airplanes</h1>
-      <p>Paper airplanes are a paper craft that involves folding paper in the shape of an airplane and throwing it in the air so it can fly. There are many types of paper airplanes to make that come in all shapes and sizes. They are very fun to make, so we hope you enjoy this site and the information it offers!</p>
+      <p>Paper airplanes are a paper craft that involves folding paper in the
+        shape of an airplane and throwing it in the air so it can fly. There
+        <br>are many types of paper airplanes to make that come in all shapes and
+        sizes. They are very fun to make, so we hope you enjoy this site and
+        <br>the information it offers!</p>
     </div>
     <div class="airplane_type_table">
-      <p>The list below contains various types of paper airplanes that you can build in your own home!</p>
+      <p>The list below contains various types of paper airplanes that you can
+        build in your own home!</p>
       <table>
+        <col width="50%">
+        <col width="50%">
         <tr>
           <th>Airplane Name</th>
           <th>Difficulty</th>
-          <th>Flight Distance</th>
         </tr>
         <tr>
-          <th>The Classic</th>
+          <th><a href="./the_classic.html">The Classic</a></th>
           <th>Easy</th>
-          <th>N/A</th>
         <tr>
           <th>Star Wing</th>
           <th>Medium</th>
-          <th>N/A</th>
         </tr>
         <tr>
-          <th>Cancard Plane</th>
+          <th>Canard Plane</th>
           <th>Hard</th>
-          <th>N/A</th>
         </tr>
         <tr>
           <th>Fast Hawk</th>
           <th>Expert</th>
-          <th>N/A></th>
         </tr>
       </table>
     </div>
   </body>
-</html>
