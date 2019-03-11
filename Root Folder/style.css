@@ -1,25 +1,57 @@
-.introduction_text {
-  text-align: center;
+body {
+  background: url(./cloud.jpg);
+  background-size: cover;
   font-family: arial, sans-serif;
 }
-.navbar {
-  background-color: #1e90ff;
-}
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: navy-blue;
+.introduction_text h1 {
+  background-color: white;
+  border: dotted;
+  float: center;
+  width: 100%;
+  height: inherit;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 20px;
+  position: absolute;
 }
-.dropdown .navbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: navy-blue;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+ul li {
+  float: left;
+  width: 200px;
+  height: 40px;
+  background-color: #1e90ff;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+ul li a:hover {
+  background-color: #1e90f0;
+}
+ul li ul li {
+  display: none;
+}
+ul li:hover ul li {
+  display: block;
+}
+.navbar {
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+}
+p {
+  color: navy blue;
+  font-size: 16px
+}
+.introduction_text p {
+  text-align: center;
+  border: hidden;
+  padding: 60px
 }
