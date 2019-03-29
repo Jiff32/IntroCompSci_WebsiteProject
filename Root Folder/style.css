@@ -1,6 +1,7 @@
 body {
-  background: url(./cloud.jpg);
+  background: url(./resources/cloud.jpg);
   background-size: cover;
+  background-attachment: fixed;
   font-family: arial, sans-serif;
 }
 .introduction_text h1 {
@@ -53,5 +54,34 @@ p {
 .introduction_text p {
   text-align: center;
   border: hidden;
-  padding: 60px
+  padding: 60px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: #000080;
+  background-color: white;
+}
+.inst h3 {
+  color: #000080;
+  background-color: white;
+  border-style: solid;
+  border-color: #000080;
+  width: 600px;
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
+}
+.copyright h4 {
+  color: #696969;
+  text-align: center;
+}
+.inst img {
+  border-style: groove;
+  border-color: #000080;
+  display: block;
+  margin-left: auto;
+  margin-right: 10%;
+}
+ol {
+  color: #000080;
+  font-size: 20px;
 }
